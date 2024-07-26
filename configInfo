@@ -1,11 +1,11 @@
 {   
     "delay"      : 10,
     "note"       : "welcome :)",
-    "appVersion" : "1.5.1",
+    "appVersion" : "1.5.2",
     "adStatus"   : "dialog_banner",
-    "dialogBannerDelay" : 500,
+    "dialogBannerDelay" : 10000,
     "interstitialAdDelay" : 10000,
-    "vpnServiceDelay" : 500,
+    "vpnServiceDelay" : 2000,
     "configs" : [
 		{
 		    "id"          : 1,
