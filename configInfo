@@ -5,7 +5,7 @@
     "adStatus"   : "dialog_banner",
     "dialogBannerDelay" : 10000,
     "interstitialAdDelay" : 10000,
-    "vpnServiceDelay" : 2000,
+    "vpnServiceDelay" : 3000,
     "configs" : [
 		{
 		    "id"          : 1,
