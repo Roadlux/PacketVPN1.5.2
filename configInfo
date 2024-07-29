@@ -3,7 +3,7 @@
     "note"       : "welcome :)",
     "appVersion" : "1.5.2",
     "adStatus"   : "dialog_banner",
-    "dialogBannerDelay" : 40000,
+    "dialogBannerDelay" : 60000,
     "interstitialAdDelay" : 10000,
     "vpnServiceDelay" : 4000,
     "configs" : [
