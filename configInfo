@@ -786,160 +786,89 @@
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
-				    	"fragmentServer"  : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "qompnu.ac.ir",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "39",
-          "length": "61",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+				    	"fragmentServer"  : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "qompnu.ac.ir.",             "port": 80, 
+            "users": [               { 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "xN--123-rk9DBBbAAaAAAaA847wCacDdBAcB662ldADdbCbBcDbc1779BEAEefc.xN--123-RK9DBbbaAAaaAAA847WcacDdBACB662lDaDdbCbbcdBc1779bEAeeFc.CoM." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "28", 
+          "interval": "58"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 		
 				    }
 		},
@@ -952,160 +881,89 @@
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
-				    	"fragmentServer"  : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "37",
-          "length": "62",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+				    	"fragmentServer"  : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "www.speedtest.net",             "port": 8880, 
+            "users": [               { 
+                "id": "f2f32133-17cd-491f-b8d2-24b48aa48512",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/usa2", 
+          "headers": {             "Host": "XN--123-Rk9DBBbAaAAAAAA847wcAcDDBacb662ldADDBcBbCDBC1779BeaEEFC.xn--123-rK9dBbbaaaAAAaA847wcaCddbaCb662lDAdDBcbBCDBc1779bEaEEfc.cOm." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "28", 
+          "interval": "58"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 		
 				    }
 		},
@@ -1118,160 +976,89 @@
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
-				    	"fragmentServer"  : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "dorna-music.ir",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "45",
-          "length": "60",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+				    	"fragmentServer"  : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "igame.ir.",             "port": 80, 
+            "users": [               { 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "xN--123-rk9DBBbAAaAAAaA847wCacDdBAcB662ldADdbCbBcDbc1779BEAEefc.xN--123-RK9DBbbaAAaaAAA847WcacDdBACB662lDaDdbCbbcdBc1779bEAeeFc.CoM." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "28", 
+          "interval": "58"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 		
 				    }
 		},
@@ -1284,160 +1071,89 @@
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
-				    	"fragmentServer"  : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cinemabartar.ir",
-            "port": 2087,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "41",
-          "length": "62",
-          "packets": "5"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+				    	"fragmentServer"  : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "avval.ir",             "port": 8880, 
+            "users": [               { 
+                "id": "f2f32133-17cd-491f-b8d2-24b48aa48512",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/usa2", 
+          "headers": {             "Host": "XN--123-Rk9DBBbAaAAAAAA847wcAcDDBacb662ldADDBcBbCDBC1779BeaEEFC.xn--123-rK9dBbbaaaAAAaA847wcaCddbaCb662lDAdDBcbBCDBc1779bEaEEfc.cOm." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "28", 
+          "interval": "58"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 		
 				    }
 		},
