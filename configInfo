@@ -179,162 +179,9 @@
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "34",
-          "length": "60",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+					"configType"     : "string",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@ucna.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"fragmentServer" : { }
 		    		    }
                 },
 		{
@@ -344,162 +191,9 @@
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" :  {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.parspack.com",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "2",
-          "length": "100",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+					"configType"     : "string",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ucna.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"fragmentServer" :  { }
 
 		    		    }
                 },
@@ -522,162 +216,9 @@
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
-				    	"configType"      : "fragment",
-				    	"stringServer"    : "",
-				    	"fragmentServer"  : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.iranserver.com",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "2",
-          "length": "100",
-          "packets": "3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+				    	"configType"      : "string",
+				    	"stringServer"    : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@qompnu.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+				    	"fragmentServer"  : {}
 		
 				    }
 		},
@@ -1177,7 +718,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@hunts.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv&path=%2F%3Fed%3D2048#M2",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@zula.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1189,162 +730,9 @@
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" :  {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "1.1.1.1/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "92.223.84.84",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "publicKey": "",
-          "serverName": "10.10.34.34",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "GcORe.shiraZPC.icU."
-          },
-          "path": ""
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "2",
-          "length": "100-150",
-          "packets": "10-15"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
-
+					"configType"     : "string",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@avval.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"fragmentServer" :  { }
 		    		    }
                 },
 		{
@@ -1355,7 +743,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@aspen.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M4",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@www.speedtest.net:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1367,162 +755,9 @@
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" :  {
-  "dns": {
-    "hosts": {
-      "domain:googleapis.cn": "googleapis.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "zula.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a8374247-0715-4509-a3c5-3f01842503e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "MeHrDaD-6Ut.PaGeS.DEv.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "MeHrDaD-6Ut.PaGeS.DEv."
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "20-30",
-          "length": "60-70",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
-
+					"configType"     : "string",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@vera.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"fragmentServer" :  { }
 		    		    }
                 },
 		{
@@ -1533,7 +768,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@lee.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv&path=%2F%3Fed%3D2048#M5",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@vasilii.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1546,7 +781,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@kareem.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#Free1",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@dimitris.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1559,7 +794,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@veda.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#Free2",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ns2.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1572,7 +807,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@emely.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv&path=%2F%3Fed%3D1024#Free3",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@ns1.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1585,7 +820,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@sage.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D1024#Free4",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ns3.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1598,7 +833,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@ns2.digitalocean.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#Free6",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@lia.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1611,7 +846,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@ns3.digitalocean.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#Free7",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@bob.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1624,7 +859,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@vera.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M6",
+					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@www.iranserver.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -1637,189 +872,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@vasilii.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M7",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 25,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 15",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@dimitris.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M8",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 26,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 16",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@hera.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M9",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 27,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 17",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@ace.ns.cloudflare.com:443?encryption=none&security=tls&sni=MeHrDaD-6Ut.PaGeS.DEv.&alpn=http%2F1.1&fp=randomized&type=ws&host=MeHrDaD-6Ut.PaGeS.DEv.&path=%2F%3Fed%3D2048#M10",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 28,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 18",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@julissa.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free10",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 29,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 19",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@tate.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free11",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 30,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 20",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@addyson.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free12",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 31,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 21",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@ajay.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free13",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 32,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 22",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@guy.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free14",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 33,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 23",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@karsyn.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free15",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 34,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 24",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@addilyn.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free16",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 35,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 25",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@cesar.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free17",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 36,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 26",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@evangeline.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free18",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 37,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 27",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@fred.ns.cloudflare.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&path=%2F%3Fed%3D2048#Free19",
-					"fragmentServer" :  { }
-
-		    		    }
-                },
-		{
-		    "id"          : 38,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 28",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://a8374247-0715-4509-a3c5-3f01842503e2@bob.ns.cloudflare.com:443?encryption=none&security=tls&sni=dBD6155C.MeHrDad-6Ut.pAGes.DeV.&alpn=http%2F1.1&fp=randomized&type=ws&host=F46C6D86.MeHrDaD-6uT.PagEs.dEv.&path=%2F%3Fed%3D2048#Free20",
+					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@bristol.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
 					"fragmentServer" :  { }
 
 		    		    }
