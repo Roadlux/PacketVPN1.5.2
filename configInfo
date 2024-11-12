@@ -180,7 +180,7 @@
 		    "mark"        : true,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@ucna.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@www.speedtest.net:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" : { }
 		    		    }
                 },
@@ -192,7 +192,7 @@
 		    "mark"        : true,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ucna.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@qompnu.ac.ir:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -205,7 +205,7 @@
 		    "mark"        : true,
                     "config"      : {
 				    	"configType"      : "string",
-				    	"stringServer"    : "vless://f2f32133-17cd-491f-b8d2-24b48aa48512@www.ucna.ac.ir.:8880?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#in2%2Busa-gqg3morz",
+				    	"stringServer"    : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@zula.ir:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 				    	"fragmentServer"  : { }
 				    }
                 },
@@ -217,7 +217,7 @@
 		    "mark"        : true,
                     "config"      : {
 				    	"configType"      : "string",
-				    	"stringServer"    : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@qompnu.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+				    	"stringServer"    : "vless://a2df8789-092b-46b2-9f70-8681de79148c@avval.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 				    	"fragmentServer"  : {}
 		
 				    }
@@ -705,7 +705,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@qompnu.ac.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@vera.ns.cloudflare.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -718,7 +718,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@zula.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@www.speedtest.net:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -731,7 +731,7 @@
 		    "mark"        : true,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@avval.ir:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@vasilii.ns.cloudflare.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 		    		    }
                 },
@@ -743,7 +743,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@www.speedtest.net:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@dimitris.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -756,7 +756,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@vera.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@ns2.digitalocean.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 		    		    }
                 },
@@ -768,7 +768,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@vasilii.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@ns3.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -781,7 +781,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@dimitris.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@ns1.digitalocean.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -794,7 +794,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ns2.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@lia.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -807,7 +807,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@ns1.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@bob.ns.cloudflare.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -820,7 +820,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@ns3.digitalocean.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@www.iranserver.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -833,7 +833,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@lia.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@bristol.ns.cloudflare.com:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -846,7 +846,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@bob.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@188.114.97.0:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -859,7 +859,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://735f8083-45e5-48ad-86c1-6394a5bd57c6@www.iranserver.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa2#USA2-58w2szzuu",
+					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
 					"fragmentServer" :  { }
 
 		    		    }
@@ -872,7 +872,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://6319b63c-15b0-42e3-84a1-10c27a43f1c2@bristol.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa1#USA1-zszugblex",
+					"stringServer"   : "vless://a2df8789-092b-46b2-9f70-8681de79148c@7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2Fusa#in-usa-lk94y88u",
 					"fragmentServer" :  { }
 
 		    		    }
