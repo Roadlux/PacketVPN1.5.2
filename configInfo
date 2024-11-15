@@ -872,7 +872,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "trojan://bpb-trojan@ucna.ac.ir:443?security=tls&sni=4grD44Rfe4yRe4t4e5Tr7U7EhTJGfjTR4G4yoiYRF4r1WdasFG178RtG4H.pages.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=4grd44rfe4yre4t4e5tr7u7ehtjgfjtr4g4yoiyrf4r1wdasfg178rtg4h.pages.dev&path=%2FtrfIsNelK3HBITKk5J%3Fed%3D2560#%F0%9F%92%A6%202%20-%20Trojan%20-%20Domain%20%3A%20443",
+					"stringServer"   : "vless://89b3cbba-e6ac-485a-9481-976a0415eab9@ucna.ac.ir:443?encryption=none&security=tls&sni=4grD44rfe4YRe4t4e5TR7u7EHtjgFJTr4G4YOiYRF4R1wdasFg178rTG4h.PAgEs.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=4grd44rfe4yre4t4e5tr7u7ehtjgfjtr4g4yoiyrf4r1wdasfg178rtg4h.pages.dev&path=%2FMBUpib2qvAQWUp3f%3Fed%3D2560#%F0%9F%92%A6%204%20-%20VLESS",
 					"fragmentServer" :  { }
 
 		    		    }
