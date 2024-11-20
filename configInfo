@@ -1969,9 +1969,91 @@
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://520ac659-0ea5-44d9-db56-5d5159217083@bristol.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2FUSA#USA-dm0saigt5",
-					"fragmentServer" :  { }
+					"configType"     : "fragment",
+					"stringServer"   : "",
+					"fragmentServer" :  {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "nazaronline.ir",             "port": 80, 
+            "users": [               { 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "300", 
+          "interval": "3"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 
 		    		    }
                 },
@@ -1982,9 +2064,91 @@
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@188.114.97.0:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
-					"fragmentServer" :  { }
+					"configType"     : "fragment",
+					"stringServer"   : "",
+					"fragmentServer" :  {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "navidweb.ir",             "port": 80, 
+            "users": [               { 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "100", 
+          "interval": "4"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 
 		    		    }
                 },
@@ -1995,9 +2159,91 @@
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://520ac659-0ea5-44d9-db56-5d5159217083@fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev:80?encryption=none&security=none&type=ws&host=%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A17%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A11%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A12%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%93%A13%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E5%B0%BC%E4%BA%9E%E5%9C%98%E5%B0%BC%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1%E5%93%A1%E4%BA%9E%E5%9C%98%E4%BA%9E%E5%9C%98%E5%93%A1%E4%BA%9E%E5%9C%98%E5%93%A1.com.&path=%2FUSA#USA-dm0saigt5",
-					"fragmentServer" :  { }
+					"configType"     : "fragment",
+					"stringServer"   : "",
+					"fragmentServer" :  {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "parspack.com",             "port": 80, 
+            "users": [               { 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "66", 
+          "interval": "15"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 
 		    		    }
                 },
@@ -2008,9 +2254,91 @@
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://89b3cbba-e6ac-485a-9481-976a0415eab9@ucna.ac.ir:443?encryption=none&security=tls&sni=4grD44rfe4YRe4t4e5TR7u7EHtjgFJTr4G4YOiYRF4R1wdasFg178rTG4h.PAgEs.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=4grd44rfe4yre4t4e5tr7u7ehtjgfjtr4g4yoiyrf4r1wdasfg178rtg4h.pages.dev&path=%2FMBUpib2qvAQWUp3f%3Fed%3D2560#%F0%9F%92%A6%204%20-%20VLESS",
-					"fragmentServer" :  { }
+					"configType"     : "fragment",
+					"stringServer"   : "",
+					"fragmentServer" :  {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "www.speedtest.net",             "port": 80, 
+            "users": [               { 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "55", 
+          "interval": "15"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 
 		    		    }
                 }
