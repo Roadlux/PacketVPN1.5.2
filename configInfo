@@ -439,9 +439,91 @@
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
-				    	"configType"      : "string",
-				    	"stringServer"    : "vless://b7a533d8-84f0-4a03-91ec-154e9eec0f50@qompnu.ac.ir:443?encryption=none&security=tls&sni=7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev&path=%2F%3Fed%3D2560#page",
-				    	"fragmentServer"  : { }
+				    	"configType"      : "fragment",
+				    	"stringServer"    : "",
+				    	"fragmentServer"  : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "imarketshop.ir.",             "port": 80, 
+            "users": [               { 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "69", 
+          "interval": "5"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 				    }
                 },
 		{
