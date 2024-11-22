@@ -2086,7 +2086,7 @@
                     "symbol"      : "GLOBAL",
                     "countryName" : "Free Server 13",
                     "ping"        : 0,
-		    "mark"        : false,
+		    "mark"        : true,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
