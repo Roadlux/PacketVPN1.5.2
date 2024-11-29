@@ -223,15 +223,15 @@
         "vnext": [           { 
             "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -317,15 +317,15 @@
         "vnext": [           { 
             "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -412,15 +412,15 @@
         "vnext": [           { 
             "address": "imarketshop.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -506,15 +506,15 @@
         "vnext": [           { 
             "address": "one-theme.ir",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -601,15 +601,15 @@
         "vnext": [           { 
             "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -696,15 +696,15 @@
         "vnext": [           { 
             "address": "qompnu.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -791,15 +791,15 @@
         "vnext": [           { 
             "address": "www.speedtest.net",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -886,15 +886,15 @@
         "vnext": [           { 
             "address": "igame.ir.",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -981,15 +981,15 @@
         "vnext": [           { 
             "address": "avval.ir",             "port": 80, 
             "users": [               { 
-                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/USA", 
-          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -2275,670 +2275,6 @@
 		    "id"          : 25,
                     "symbol"      : "GLOBAL",
                     "countryName" : "Free Server 15",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" :  {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b218a9e4-bcd8-40ab-b822-9f9936d82d76",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "http/1.1",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "bacea9c4.eshdgjkerfggf4he4r9fd4s6ge48q64f1gb5f4gf8w4dw54gbe5q4d8q.pages.dev.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "48966f91.eshdgjkerfggf4he4r9fd4s6ge48q64f1gb5f4gf8w4dw54gbe5q4d8q.pages.dev.", 
-                                   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "3",
-          "length": "100",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
-
-		    		    }
-                },
-		{
-		    "id"          : 26,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 16",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" :  {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b218a9e4-bcd8-40ab-b822-9f9936d82d76",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "http/1.1",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "bacea9c4.eshdgjkerfggf4he4r9fd4s6ge48q64f1gb5f4gf8w4dw54gbe5q4d8q.pages.dev.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "48966f91.eshdgjkerfggf4he4r9fd4s6ge48q64f1gb5f4gf8w4dw54gbe5q4d8q.pages.dev."
-          },
-          "path": "/?ed=2560"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "3",
-          "length": "100",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
-		    		    }
-                },
-		{
-		    "id"          : 27,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 17",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "fc0b8521-d160-4b52-9d52-75642d4559fa",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "http/1.1",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "ee3ceb5c.g2h5f4hy6e4tg15ht4yt4w5e1h6t54y1g5erjt45e54eh1j6rt4h1wre4h.pages.dev.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "5e7b33ee.g2h5f4hy6e4tg15ht4yt4w5e1h6t54y1g5erjt45e54eh1j6rt4h1wre4h.pages.dev.", 
-                                   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "3",
-          "length": "100",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-} 
-		    		    }
-                },
-		{
-		    "id"          : 28,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 18",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "fragment",
-					"stringServer"   : "",
-					"fragmentServer" : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "fc0b8521-d160-4b52-9d52-75642d4559fa",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "ee3ceb5c.g2h5f4hy6e4tg15ht4yt4w5e1h6t54y1g5erjt45e54eh1j6rt4h1wre4h.pages.dev.",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "5e7b33ee.g2h5f4hy6e4tg15ht4yt4w5e1h6t54y1g5erjt45e54eh1j6rt4h1wre4h.pages.dev.", 
-                                   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "3",
-          "length": "100",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
-		    		    }
-                },
-		{
-		    "id"          : 29,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 19",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
