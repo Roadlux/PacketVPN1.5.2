@@ -2283,19 +2283,8 @@
   }
 }
 		    		    }
-                },
-		{
-		    "id"          : 26,
-                    "symbol"      : "GLOBAL",
-                    "countryName" : "Free Server 16",
-                    "ping"        : 0,
-		    "mark"        : false,
-                    "config"      : {
-					"configType"     : "string",
-					"stringServer"   : "vless://c3f28c44-1af1-4e8d-a56c-793260a3b838@185.122.165.171:443?encryption=none&security=reality&sni=google.com&fp=randomized&pbk=c5jniMNPCCLXifAqD1runFSuiGbuEkYlJMp-EoPQ8BI&sid=62c31954&spx=%2Fsearch%3Fq%3D%D8%B3%D8%A7%DB%8C%D8%AA%20%D9%85%D9%82%D8%A7%D9%85%20%D9%85%D8%B9%D8%B8%D9%85%20%D8%B1%D9%87%D8%A8%D8%B1%DB%8C%26sca_esv%3D4dae32ac01e8b27f%26sxsrf%3DADLYWIJxW7fDumcD0k9Nv59Q1gNBCO3E5g%3A1733165185721%26source%3Dhp%26ei%3DgQBOZ9LUKbe4wPAP0rWUsA0%26iflsig%3DAL9hbdgAAAAAZ04OkdH2IlM5Rpf9Rxxq19tkSViUYL7V%26oq%3D%26gs_lp%3DEgdnd3Mtd2l6IgAqAggCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSMkTUABYAHABeACQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAgyoAgqYAwySBwExoAcA%26sclient%3Dgws-wiz&type=tcp&headerType=none#paket-3df0gxov",
-					"fragmentServer" : { }
-		    		    }
                 }
+		
 		
 		
 				    
