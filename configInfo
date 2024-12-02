@@ -16,160 +16,89 @@
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
-					"fragmentServer" : {
-  "dns": {
-    "hosts": {
-      "domain:cloudflare.com": "cloudflare.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ucna.ac.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b7a533d8-84f0-4a03-91ec-154e9eec0f50",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "sockopt": {
-          "dialerProxy": "fragment"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "7cb69406.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "fe0654a7.jhdjksahjdshajkdhsajdhsajkhdjksahdjksahdjkshdjksahdjksahdj.pages.dev"
-          },
-          "path": "/?ed=2560"
-        }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "interval": "2",
-          "length": "100",
-          "packets": "1-3"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "TcpNoDelay": true,
-          "mark": 255
-        }
-      },
-      "tag": "fragment"
-    }
-  ],
-  "remarks": "Mttt",
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "ip": [
-          "1.1.1.1"
-        ],
-        "outboundTag": "proxy",
-        "port": "53"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+					"fragmentServer" : {   "remarks": "Telegram Hossimrmmd (IRCF Fragment)", 
+  "log": {     "access": "", 
+    "error": "",     "loglevel": "warning" 
+  },   "dns": { 
+    "servers": [       "8.8.8.8" 
+    ],     "queryStrategy": "UseIP" 
+  },   "routing": { 
+    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "dns-in" 
+        ],         "outboundTag": "dns-out" 
+      },       { 
+        "type": "field", 
+        "port": 80,         "network": "udp", 
+        "outboundTag": "block"       } 
+    ]   }, 
+     "inbounds": [ 
+    {       "tag": "socks", 
+      "port": 10808,       "listen": "127.0.0.1", 
+      "protocol": "socks",       "sniffing": { 
+        "enabled": true,         "destOverride": [ 
+          "http",           "tls" 
+        ],         "routeOnly": false 
+      },       "settings": { 
+        "auth": "noauth",         "udp": true, 
+        "allowTransparent": false       } 
+    },     { 
+      "tag": "http",       "port": 10809, 
+      "listen": "127.0.0.1",       "protocol": "http", 
+      "sniffing": {         "enabled": true, 
+        "destOverride": [           "http", 
+          "tls"         ], 
+        "routeOnly": false       }, 
+      "settings": {         "auth": "noauth", 
+        "udp": true,         "allowTransparent": false 
+      }     } 
+  ],   "outbounds": [ 
+    {       "tag": "proxy", 
+      "protocol": "vless",       "settings": { 
+        "vnext": [           { 
+            "address": "www.ucna.ac.ir.",             "port": 80, 
+            "users": [               { 
+                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "email": "t@t.tt",                 "security": "auto", 
+                "encryption": "none",                 "flow": "" 
+              }             ] 
+          }         ] 
+      }, 
+      "streamSettings": {         "network": "ws", 
+        "wsSettings": {           "path": "/usa", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+          }         }, 
+        "sockopt": {           "dialerProxy": "fragment", 
+          "tcpKeepAliveIdle": 100,           "mark": 255, 
+          "tcpNoDelay": true         } 
+      }     }, 
+    {       "tag": "fragment", 
+      "protocol": "freedom",       "settings": { 
+        "domainStrategy": "AsIs",         "fragment": { 
+          "packets": "1-3",           "length": "100", 
+          "interval": "3"         } 
+      },       "streamSettings": { 
+        "sockopt": {           "tcpNoDelay": true, 
+          "tcpKeepAliveIdle": 100         } 
+      }     }, 
+    {       "tag": "direct", 
+      "protocol": "freedom",       "settings": {} 
+    },     { 
+      "tag": "block",       "protocol": "blackhole", 
+      "settings": {         "response": { 
+          "type": "http"         } 
+      }     } 
+  ],   "routing": { 
+    "domainStrategy": "AsIs",     "rules": [ 
+      {         "type": "field", 
+        "inboundTag": [           "api" 
+        ],         "outboundTag": "api", 
+        "enabled": true       }, 
+      {         "id": "5627785659655799759", 
+        "type": "field",         "port": "0-65535", 
+        "outboundTag": "proxy",         "enabled": true 
+      }     ] 
+  } }
 		    		    }
                 },
 		{
@@ -2363,7 +2292,7 @@
 		    "mark"        : false,
                     "config"      : {
 					"configType"     : "string",
-					"stringServer"   : "vless://a2578388-25bc-44ed-ae5a-6bf3df5edef9@65.109.194.1:443?encryption=none&security=reality&sni=google.com&fp=randomized&pbk=t9FHdb0lZFJiwqIbknqKDEKGaWXcSiZTr1N7x4URW2M&sid=409836dac2&spx=%2Fsearch%3Fq%3D%DA%A9%D9%87%D8%B1%D8%A8%D8%A7%DB%8C%DB%8C%2B%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%DA%AF%DB%8C%26sca_esv%3D3029ffce05bf8594%26sxsrf%3DADLYWILF29SgIDNQWptkpQIYkPB7rMuUdA%253A1733064412987%26source%3Dhp%26ei%3D3HZMZ_TJOYSMi-gPgc7AwAI%26iflsig%3DAL9hbdgAAAAAZ0yE7ONLSIubO2G8Gz4mJOg5a3w_J02k%26oq%3D%26gs_lp%3DEgdnd3Mtd2l6IgAqAggCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSOMQUABYAHABeACQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAguoAgqYAwuSBwExoAcA%26sclient%3Dgws-wiz&type=tcp&headerType=none&host=google.com#packet",
+					"stringServer"   : "vless://c3f28c44-1af1-4e8d-a56c-793260a3b838@185.122.165.171:443?encryption=none&security=reality&sni=google.com&fp=randomized&pbk=c5jniMNPCCLXifAqD1runFSuiGbuEkYlJMp-EoPQ8BI&sid=62c31954&spx=%2Fsearch%3Fq%3D%D8%B3%D8%A7%DB%8C%D8%AA%20%D9%85%D9%82%D8%A7%D9%85%20%D9%85%D8%B9%D8%B8%D9%85%20%D8%B1%D9%87%D8%A8%D8%B1%DB%8C%26sca_esv%3D4dae32ac01e8b27f%26sxsrf%3DADLYWIJxW7fDumcD0k9Nv59Q1gNBCO3E5g%3A1733165185721%26source%3Dhp%26ei%3DgQBOZ9LUKbe4wPAP0rWUsA0%26iflsig%3DAL9hbdgAAAAAZ04OkdH2IlM5Rpf9Rxxq19tkSViUYL7V%26oq%3D%26gs_lp%3DEgdnd3Mtd2l6IgAqAggCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSMkTUABYAHABeACQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAgyoAgqYAwySBwExoAcA%26sclient%3Dgws-wiz&type=tcp&headerType=none#paket-3df0gxov",
 					"fragmentServer" : { }
 		    		    }
                 }
