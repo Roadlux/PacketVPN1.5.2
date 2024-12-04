@@ -56,17 +56,18 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.ucna.ac.ir.",             "port": 80, 
+            "address": "www.tgju.org",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA?ed=2048", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+                                   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -75,8 +76,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "packets": "1-3",           "length": "90-100", 
+          "interval": "2-3"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -152,15 +153,15 @@
         "vnext": [           { 
             "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -169,8 +170,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "60", 
-          "interval": "8"         } 
+          "packets": "1-3",           "length": "100", 
+          "interval": "3"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -244,17 +245,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.ucna.ac.ir.",             "port": 80, 
+            "address": "imarketshop.ir.",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -263,8 +264,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "packets": "1-3",           "length": "69", 
+          "interval": "5"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -339,17 +340,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "imarketshop.ir.",             "port": 80, 
+            "address": "one-theme.ir",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -358,8 +359,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "69", 
-          "interval": "5"         } 
+          "packets": "1-3",           "length": "100", 
+          "interval": "6"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -433,17 +434,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "one-theme.ir",             "port": 80, 
+            "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -452,8 +453,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "100", 
-          "interval": "6"         } 
+          "packets": "1-3",           "length": "60", 
+          "interval": "11"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -528,17 +529,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.ucna.ac.ir.",             "port": 80, 
+            "address": "qompnu.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -547,8 +548,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "60", 
-          "interval": "11"         } 
+          "packets": "1-3",           "length": "45", 
+          "interval": "13"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -623,17 +624,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "qompnu.ac.ir.",             "port": 80, 
+            "address": "www.speedtest.net",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -642,8 +643,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "45", 
-          "interval": "13"         } 
+          "packets": "1-3",           "length": "55", 
+          "interval": "7"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -718,17 +719,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.speedtest.net",             "port": 80, 
+            "address": "igame.ir.",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -737,8 +738,8 @@
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
-          "packets": "1-3",           "length": "55", 
-          "interval": "7"         } 
+          "packets": "1-3",           "length": "100", 
+          "interval": "4"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
@@ -813,17 +814,17 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "igame.ir.",             "port": 80, 
+            "address": "avval.ir",             "port": 80, 
             "users": [               { 
-                "id": "a2df8789-092b-46b2-9f70-8681de79148c",                 "alterId": 0, 
+                "id": "c1aa9772-f593-4577-bc83-f7a66f9c603c",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
           }         ] 
       }, 
       "streamSettings": {         "network": "ws", 
-        "wsSettings": {           "path": "/usa", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
+        "wsSettings": {           "path": "/USA", 
+          "headers": {             "Host": "尼亞團員1尼亞團員5尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com." 
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 100,           "mark": 255, 
@@ -833,7 +834,7 @@
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "4"         } 
+          "interval": "3"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
           "tcpKeepAliveIdle": 100         } 
