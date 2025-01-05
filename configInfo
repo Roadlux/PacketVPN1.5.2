@@ -58,7 +58,7 @@
         "vnext": [           { 
             "address": "ucna.ac.ir",             "port": 80, 
             "users": [               { 
-                "id": "5a6f9878-ef2b-4c5d-b44a-61a721052f6b",                 "alterId": 0, 
+                "id": "ccbbe35f-3159-4754-fb69-bd7a8c098f74",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -66,20 +66,20 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
-                                   "User-Agent": "Mozilla/5.0 (Linux; Android 9; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.81 Mobile Safari/537.36"
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+                                   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
           "tcpKeepAliveIdle": 1,           "mark": 255, 
-          "tcpNoDelay": true         } 
+          "tcpNoDelay": false         } 
       }     }, 
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "interval": "2"         } 
       },       "streamSettings": { 
-        "sockopt": {           "tcpNoDelay": true, 
+        "sockopt": {           "tcpNoDelay": false, 
           "tcpKeepAliveIdle": 1         } 
       }     }, 
     {       "tag": "direct", 
@@ -116,15 +116,15 @@
     "error": "",     "loglevel": "warning" 
   },   "dns": { 
     "servers": [       "1.1.1.3" 
-    ],     "queryStrategy": "UseIP" 
+    ],     "queryStrategy": "AsIs" 
   },   "routing": { 
-    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+    "domainStrategy": "AsIs",     "rules": [ 
       {         "type": "field", 
         "inboundTag": [           "dns-in" 
         ],         "outboundTag": "dns-out" 
       },       { 
         "type": "field", 
-        "port": 80,         "network": "udp", 
+        "port": 80,         "network": "tcp", 
         "outboundTag": "block"       } 
     ]   }, 
      "inbounds": [ 
@@ -132,20 +132,20 @@
       "port": 10808,       "listen": "127.0.0.1", 
       "protocol": "socks",       "sniffing": { 
         "enabled": true,         "destOverride": [ 
-          "http",           "tls" 
+          "https",           "tls" 
         ],         "routeOnly": false 
       },       "settings": { 
         "auth": "noauth",         "udp": true, 
-        "allowTransparent": false       } 
+        "allowTransparent": true       } 
     },     { 
-      "tag": "http",       "port": 10809, 
+      "tag": "https",       "port": 10809, 
       "listen": "127.0.0.1",       "protocol": "http", 
       "sniffing": {         "enabled": true, 
-        "destOverride": [           "http", 
+        "destOverride": [           "https", 
           "tls"         ], 
         "routeOnly": false       }, 
       "settings": {         "auth": "noauth", 
-        "udp": true,         "allowTransparent": false 
+        "udp": false,         "allowTransparent": true 
       }     } 
   ],   "outbounds": [ 
     {       "tag": "proxy", 
@@ -161,21 +161,21 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
-          "tcpKeepAliveIdle": 100,           "mark": 255, 
-          "tcpNoDelay": true         } 
+          "tcpKeepAliveIdle": 1,           "mark": 255, 
+          "tcpNoDelay": false         } 
       }     }, 
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "interval": "2"         } 
       },       "streamSettings": { 
-        "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+        "sockopt": {           "tcpNoDelay": false, 
+          "tcpKeepAliveIdle": 1         } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
@@ -211,15 +211,15 @@
     "error": "",     "loglevel": "warning" 
   },   "dns": { 
     "servers": [       "1.1.1.3" 
-    ],     "queryStrategy": "UseIP" 
+    ],     "queryStrategy": "AsIs" 
   },   "routing": { 
-    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+    "domainStrategy": "AsIs",     "rules": [ 
       {         "type": "field", 
         "inboundTag": [           "dns-in" 
         ],         "outboundTag": "dns-out" 
       },       { 
         "type": "field", 
-        "port": 80,         "network": "udp", 
+        "port": 80,         "network": "tcp", 
         "outboundTag": "block"       } 
     ]   }, 
      "inbounds": [ 
@@ -227,20 +227,20 @@
       "port": 10808,       "listen": "127.0.0.1", 
       "protocol": "socks",       "sniffing": { 
         "enabled": true,         "destOverride": [ 
-          "http",           "tls" 
+          "https",           "tls" 
         ],         "routeOnly": false 
       },       "settings": { 
         "auth": "noauth",         "udp": true, 
-        "allowTransparent": false       } 
+        "allowTransparent": true       } 
     },     { 
-      "tag": "http",       "port": 10809, 
+      "tag": "https",       "port": 10809, 
       "listen": "127.0.0.1",       "protocol": "http", 
       "sniffing": {         "enabled": true, 
-        "destOverride": [           "http", 
+        "destOverride": [           "https", 
           "tls"         ], 
         "routeOnly": false       }, 
       "settings": {         "auth": "noauth", 
-        "udp": true,         "allowTransparent": false 
+        "udp": false,         "allowTransparent": true 
       }     } 
   ],   "outbounds": [ 
     {       "tag": "proxy", 
@@ -256,21 +256,21 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
-          "tcpKeepAliveIdle": 100,           "mark": 255, 
-          "tcpNoDelay": true         } 
+          "tcpKeepAliveIdle": 1,           "mark": 255, 
+          "tcpNoDelay": false         } 
       }     }, 
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "interval": "2"         } 
       },       "streamSettings": { 
-        "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+        "sockopt": {           "tcpNoDelay": false, 
+          "tcpKeepAliveIdle": 1         } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
@@ -307,15 +307,15 @@
     "error": "",     "loglevel": "warning" 
   },   "dns": { 
     "servers": [       "1.1.1.3" 
-    ],     "queryStrategy": "UseIP" 
+    ],     "queryStrategy": "AsIs" 
   },   "routing": { 
-    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+    "domainStrategy": "AsIs",     "rules": [ 
       {         "type": "field", 
         "inboundTag": [           "dns-in" 
         ],         "outboundTag": "dns-out" 
       },       { 
         "type": "field", 
-        "port": 80,         "network": "udp", 
+        "port": 80,         "network": "tcp", 
         "outboundTag": "block"       } 
     ]   }, 
      "inbounds": [ 
@@ -323,26 +323,26 @@
       "port": 10808,       "listen": "127.0.0.1", 
       "protocol": "socks",       "sniffing": { 
         "enabled": true,         "destOverride": [ 
-          "http",           "tls" 
+          "https",           "tls" 
         ],         "routeOnly": false 
       },       "settings": { 
         "auth": "noauth",         "udp": true, 
-        "allowTransparent": false       } 
+        "allowTransparent": true       } 
     },     { 
-      "tag": "http",       "port": 10809, 
+      "tag": "https",       "port": 10809, 
       "listen": "127.0.0.1",       "protocol": "http", 
       "sniffing": {         "enabled": true, 
-        "destOverride": [           "http", 
+        "destOverride": [           "https", 
           "tls"         ], 
         "routeOnly": false       }, 
       "settings": {         "auth": "noauth", 
-        "udp": true,         "allowTransparent": false 
+        "udp": false,         "allowTransparent": true 
       }     } 
   ],   "outbounds": [ 
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "qompnu.ac.ir.",             "port": 80, 
+            "address": "qompnu.ac.ir",             "port": 80, 
             "users": [               { 
                 "id": "75e977e4-c8b4-4156-980a-37398700d64e",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
@@ -352,21 +352,21 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
-          "tcpKeepAliveIdle": 100,           "mark": 255, 
-          "tcpNoDelay": true         } 
+          "tcpKeepAliveIdle": 1,           "mark": 255, 
+          "tcpNoDelay": false         } 
       }     }, 
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "interval": "2"         } 
       },       "streamSettings": { 
-        "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+        "sockopt": {           "tcpNoDelay": false, 
+          "tcpKeepAliveIdle": 1         } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
@@ -402,15 +402,15 @@
     "error": "",     "loglevel": "warning" 
   },   "dns": { 
     "servers": [       "1.1.1.3" 
-    ],     "queryStrategy": "UseIP" 
+    ],     "queryStrategy": "AsIs" 
   },   "routing": { 
-    "domainStrategy": "IPIfNonMatch",     "rules": [ 
+    "domainStrategy": "AsIs",     "rules": [ 
       {         "type": "field", 
         "inboundTag": [           "dns-in" 
         ],         "outboundTag": "dns-out" 
       },       { 
         "type": "field", 
-        "port": 80,         "network": "udp", 
+        "port": 80,         "network": "tcp", 
         "outboundTag": "block"       } 
     ]   }, 
      "inbounds": [ 
@@ -418,20 +418,20 @@
       "port": 10808,       "listen": "127.0.0.1", 
       "protocol": "socks",       "sniffing": { 
         "enabled": true,         "destOverride": [ 
-          "http",           "tls" 
+          "https",           "tls" 
         ],         "routeOnly": false 
       },       "settings": { 
         "auth": "noauth",         "udp": true, 
-        "allowTransparent": false       } 
+        "allowTransparent": true       } 
     },     { 
-      "tag": "http",       "port": 10809, 
+      "tag": "https",       "port": 10809, 
       "listen": "127.0.0.1",       "protocol": "http", 
       "sniffing": {         "enabled": true, 
-        "destOverride": [           "http", 
+        "destOverride": [           "https", 
           "tls"         ], 
         "routeOnly": false       }, 
       "settings": {         "auth": "noauth", 
-        "udp": true,         "allowTransparent": false 
+        "udp": false,         "allowTransparent": true 
       }     } 
   ],   "outbounds": [ 
     {       "tag": "proxy", 
@@ -447,21 +447,21 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
-          "tcpKeepAliveIdle": 100,           "mark": 255, 
-          "tcpNoDelay": true         } 
+          "tcpKeepAliveIdle": 1,           "mark": 255, 
+          "tcpNoDelay": false         } 
       }     }, 
     {       "tag": "fragment", 
       "protocol": "freedom",       "settings": { 
         "domainStrategy": "AsIs",         "fragment": { 
           "packets": "1-3",           "length": "100", 
-          "interval": "3"         } 
+          "interval": "2"         } 
       },       "streamSettings": { 
-        "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+        "sockopt": {           "tcpNoDelay": false, 
+          "tcpKeepAliveIdle": 1         } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
