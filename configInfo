@@ -58,7 +58,7 @@
         "vnext": [           { 
             "address": "ucna.ac.ir",             "port": 80, 
             "users": [               { 
-                "id": "ccbbe35f-3159-4754-fb69-bd7a8c098f74",                 "alterId": 0, 
+                "id": "2c7e1e9c-7fcc-4485-b227-39df7a1d0d5b",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -66,7 +66,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
@@ -153,7 +153,7 @@
         "vnext": [           { 
             "address": "www.tgju.org",             "port": 80, 
             "users": [               { 
-                "id": "e89ef259-2f4e-45bc-a938-f8f3ad8942fd",                 "alterId": 0, 
+                "id": "9741a333-7421-468f-ec7a-25bc95f6d259",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -161,7 +161,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
@@ -248,7 +248,7 @@
         "vnext": [           { 
             "address": "www.speedtest.net",             "port": 80, 
             "users": [               { 
-                "id": "7a7d45ba-4847-4956-c207-fb9e7389b88d",                 "alterId": 0, 
+                "id": "de2f5a03-db49-4e98-e3d6-c46c3701b88e",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -256,7 +256,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
@@ -344,7 +344,7 @@
         "vnext": [           { 
             "address": "qompnu.ac.ir",             "port": 80, 
             "users": [               { 
-                "id": "75e977e4-c8b4-4156-980a-37398700d64e",                 "alterId": 0, 
+                "id": "85512c88-9234-4dcc-c527-c2307a506153",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -352,7 +352,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
@@ -439,7 +439,7 @@
         "vnext": [           { 
             "address": "arzdigital.com",             "port": 80, 
             "users": [               { 
-                "id": "ac0c7a6d-ef36-45fa-83f1-c97ad0d75bc0",                 "alterId": 0, 
+                "id": "85512c88-9234-4dcc-c527-c2307a506153",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -447,7 +447,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團2團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
