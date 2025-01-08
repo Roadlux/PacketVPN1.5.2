@@ -58,7 +58,7 @@
         "vnext": [           { 
             "address": "www.ucna.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "1324960b-149f-49a0-950f-625837a11079",                 "alterId": 0, 
+                "id": "8dc7f86a-51a1-416b-9682-1d8161a0f3a1",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -151,9 +151,9 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.tgju.org",             "port": 80, 
+            "address": "www.speedtest.net",             "port": 80, 
             "users": [               { 
-                "id": "ab27feb2-55b2-48a4-9356-467ebe5e0254",                 "alterId": 0, 
+                "id": "f161412a-a407-407c-f5af-802e74df0113",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -161,7 +161,7 @@
       }, 
       "streamSettings": {         "network": "ws", 
         "wsSettings": {           "path": "/", 
-          "headers": {             "Host": "尼亞團58尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
+          "headers": {             "Host": "尼亞團員1尼亞團員2尼亞團員9尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.", 
                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
           }         }, 
         "sockopt": {           "dialerProxy": "fragment", 
@@ -175,7 +175,7 @@
           "interval": "3"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+          "tcpKeepAliveIdle": 100        } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
@@ -246,9 +246,9 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "www.speedtest.net",             "port": 80, 
+            "address": "qompnu.ac.ir.",             "port": 80, 
             "users": [               { 
-                "id": "0e361b9a-cd2d-4e68-9f13-6e16c42dd81d",                 "alterId": 0, 
+                "id": "a0f9ebb2-1bf8-4eed-8473-4e1211d2efe5",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -270,7 +270,7 @@
           "interval": "3"         } 
       },       "streamSettings": { 
         "sockopt": {           "tcpNoDelay": true, 
-          "tcpKeepAliveIdle": 100         } 
+          "tcpKeepAliveIdle": 100        } 
       }     }, 
     {       "tag": "direct", 
       "protocol": "freedom",       "settings": {} 
@@ -342,9 +342,9 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "qompnu.ac.ir.",             "port": 80, 
+            "address": "arzdigital.com",             "port": 80, 
             "users": [               { 
-                "id": "85512c88-9234-4dcc-c527-c2307a506153",                 "alterId": 0, 
+                "id": "2c7e1e9c-7fcc-4485-b227-39df7a1d0d5b",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
@@ -437,9 +437,9 @@
     {       "tag": "proxy", 
       "protocol": "vless",       "settings": { 
         "vnext": [           { 
-            "address": "imarketshop.ir.",             "port": 80, 
+            "address": "www.tgju.org",             "port": 80, 
             "users": [               { 
-                "id": "ad014679-100e-42aa-8135-6386ec076cc4",                 "alterId": 0, 
+                "id": "0e361b9a-cd2d-4e68-9f13-6e16c42dd81d",                 "alterId": 0, 
                 "email": "t@t.tt",                 "security": "auto", 
                 "encryption": "none",                 "flow": "" 
               }             ] 
