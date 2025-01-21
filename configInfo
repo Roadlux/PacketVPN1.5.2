@@ -967,7 +967,7 @@
 		{
 		    "id"          : 11,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 1",
+                    "countryName" : "Random IP 1",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1063,7 +1063,7 @@
 		{
 		    "id"          : 12,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 2",
+                    "countryName" : "Random IP 2",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1159,7 +1159,7 @@
 		{
 		    "id"          : 13,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 3",
+                    "countryName" : "Random IP 3",
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
@@ -1254,7 +1254,7 @@
 		{
 		    "id"          : 14,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 4",
+                    "countryName" : "Random IP 4",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1349,7 +1349,7 @@
 		{
 		    "id"          : 15,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 5",
+                    "countryName" : "Random IP 5",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1444,7 +1444,7 @@
 		{
 		    "id"          : 16,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 6",
+                    "countryName" : "Random IP 6",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1540,7 +1540,7 @@
 		{
 		    "id"          : 17,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 7",
+                    "countryName" : "Random IP 7",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1635,7 +1635,7 @@
 		{
 		    "id"          : 18,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 8",
+                    "countryName" : "Random IP 8",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1730,7 +1730,7 @@
 		{
 		    "id"          : 19,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 9",
+                    "countryName" : "Random IP 9",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1826,7 +1826,7 @@
 		{
 		    "id"          : 20,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 10",
+                    "countryName" : "Random IP 10",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1922,7 +1922,7 @@
 		{
 		    "id"          : 21,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 11",
+                    "countryName" : "Random IP 11",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -2018,7 +2018,7 @@
 		{
 		    "id"          : 22,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random 12",
+                    "countryName" : "Random IP 12",
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
