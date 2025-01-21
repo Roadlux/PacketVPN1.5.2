@@ -967,7 +967,7 @@
 		{
 		    "id"          : 11,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 1",
+                    "countryName" : "Random 1",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1063,7 +1063,7 @@
 		{
 		    "id"          : 12,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 2",
+                    "countryName" : "Random 2",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1159,7 +1159,7 @@
 		{
 		    "id"          : 13,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 3",
+                    "countryName" : "Random 3",
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
@@ -1254,7 +1254,7 @@
 		{
 		    "id"          : 14,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 4",
+                    "countryName" : "Random 4",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1349,7 +1349,7 @@
 		{
 		    "id"          : 15,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 5",
+                    "countryName" : "Random 5",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1444,7 +1444,7 @@
 		{
 		    "id"          : 16,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 6",
+                    "countryName" : "Random 6",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1540,7 +1540,7 @@
 		{
 		    "id"          : 17,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 7",
+                    "countryName" : "Random 7",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1635,7 +1635,7 @@
 		{
 		    "id"          : 18,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 8",
+                    "countryName" : "Random 8",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1730,7 +1730,7 @@
 		{
 		    "id"          : 19,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 9",
+                    "countryName" : "Random 9",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1826,7 +1826,7 @@
 		{
 		    "id"          : 20,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 10",
+                    "countryName" : "Random 10",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -1922,7 +1922,7 @@
 		{
 		    "id"          : 21,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 11",
+                    "countryName" : "Random 11",
                     "ping"        : 0,
 		    "mark"        : false,
                     "config"      : {
@@ -2018,7 +2018,7 @@
 		{
 		    "id"          : 22,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random Location 12",
+                    "countryName" : "Random 12",
                     "ping"        : 0,
 		    "mark"        : true,
                     "config"      : {
