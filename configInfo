@@ -1,18 +1,19 @@
 {   
-    "delay"      : 10,
+  	"delay"      : 10,
     "note"       : "welcome :)",
     "appVersion" : "1.5.2",
     "adStatus"   : "dialog_banner",
     "dialogBannerDelay" : 70000,
     "interstitialAdDelay" : 10000,
     "vpnServiceDelay" : 6000,
-    "configs" : [
+  	"configs" : [
+
 		{
-		    "id"          : 1,
-                    "symbol"      : "DE",
-                    "countryName" : "Germany",
+		    		"id"          : 1,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 1",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -103,11 +104,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 2,
-                    "symbol"      : "DE",
-                    "countryName" : "Germany",
+		    		"id"          : 2,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 2",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -198,11 +199,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 3,
-                    "symbol"      : "DE",
-                    "countryName" : "Germany",
+		    		"id"          : 3,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 3",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -294,11 +295,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 4,
-                    "symbol"      : "DE",
-                    "countryName" : "Germany",
+		    		"id"          : 4,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 4",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -389,11 +390,11 @@
 				    }
                 },
 		{
-		    "id"          : 5,
-                    "symbol"      : "DE",
-                    "countryName" : "Germany",
+		    		"id"          : 5,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 5",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -485,11 +486,11 @@
 				    }
 		},
 		{
-		    "id"          : 6,
-                    "symbol"      : "US",
-                    "countryName" : "USA",
+		    		"id"          : 6,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 6",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -581,11 +582,11 @@
 				    }
 		},
 		{
-		    "id"          : 7,
-                    "symbol"      : "US",
-                    "countryName" : "USA",
+		    		"id"          : 7,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 7",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -677,11 +678,11 @@
 				    }
 		},
 		{
-		    "id"          : 8,
-                    "symbol"      : "US",
-                    "countryName" : "USA",
+		    		"id"          : 8,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 8",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -773,11 +774,11 @@
 				    }
 		},
 		{
-		    "id"          : 9,
-                    "symbol"      : "US",
-                    "countryName" : "USA",
+		    		"id"          : 9,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 9",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -869,11 +870,11 @@
 				    }
 		},
 		{
-		    "id"          : 10,
-                    "symbol"      : "US",
-                    "countryName" : "USA",
+		    		"id"          : 10,
+                    "symbol"      : "GLOBAL",
+                    "countryName" : "Server 10",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 				    	"configType"      : "fragment",
 				    	"stringServer"    : "",
@@ -965,11 +966,11 @@
 				    }
 		},
 		{
-		    "id"          : 11,
+		    		"id"          : 11,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 1",
+                    "countryName" : "Server 11",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1061,11 +1062,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 12,
+		    		"id"          : 12,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 2",
+                    "countryName" : "Server 12",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1157,11 +1158,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 13,
+		    		"id"          : 13,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 3",
+                    "countryName" : "Server 13",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1252,11 +1253,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 14,
+		    		"id"          : 14,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 4",
+                    "countryName" : "Server 14",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1347,11 +1348,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 15,
+		    		"id"          : 15,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 5",
+                    "countryName" : "Server 15",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1442,11 +1443,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 16,
+		    		"id"          : 16,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 6",
+                    "countryName" : "Server 16",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1538,11 +1539,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 17,
+		    		"id"          : 17,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 7",
+                    "countryName" : "Server 17",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1633,11 +1634,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 18,
+		    		"id"          : 18,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 8",
+                    "countryName" : "Server 18",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1728,11 +1729,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 19,
+		    		"id"          : 19,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 9",
+                    "countryName" : "Server 19",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1824,11 +1825,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 20,
+		    		"id"          : 20,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 10",
+                    "countryName" : "Server 20",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -1920,11 +1921,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 21,
+		    		"id"          : 21,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 11",
+                    "countryName" : "Server 21",
                     "ping"        : 0,
-		    "mark"        : false,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -2016,11 +2017,11 @@
 		    		    }
                 },
 		{
-		    "id"          : 22,
+		    		"id"          : 22,
                     "symbol"      : "GLOBAL",
-                    "countryName" : "Random IP 12",
+                    "countryName" : "Server 22",
                     "ping"        : 0,
-		    "mark"        : true,
+		    		"mark"        : false,
                     "config"      : {
 					"configType"     : "fragment",
 					"stringServer"   : "",
@@ -2312,6 +2313,7 @@
 
 		    		    }
                 }
+				
 		
 		
 		
